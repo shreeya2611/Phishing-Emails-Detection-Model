@@ -1,0 +1,208 @@
+2026-07-18 13:06:05,680 -  * Debugger is active!
+2026-07-18 13:06:05,685 -  * Debugger PIN: 760-625-959
+2026-07-18 13:07:34,043 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 13:07:34,043 - [33mPress CTRL+C to quit[0m
+2026-07-18 13:07:34,045 -  * Restarting with stat
+2026-07-18 13:07:36,082 -  * Debugger is active!
+2026-07-18 13:07:36,085 -  * Debugger PIN: 760-625-959
+2026-07-18 13:08:34,805 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 13:08:34,817 - [33mPress CTRL+C to quit[0m
+2026-07-18 13:08:34,820 -  * Restarting with stat
+2026-07-18 13:08:36,868 -  * Debugger is active!
+2026-07-18 13:08:36,871 -  * Debugger PIN: 760-625-959
+2026-07-18 13:09:40,312 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 13:09:40,312 - [33mPress CTRL+C to quit[0m
+2026-07-18 13:09:40,314 -  * Restarting with stat
+2026-07-18 13:09:42,384 -  * Debugger is active!
+2026-07-18 13:09:42,388 -  * Debugger PIN: 760-625-959
+2026-07-18 13:10:44,143 -  * Detected change in 'C:\\Users\\Shreeyaa\\Desktop\\SOC Mini\\Cyber\\Phishing Email Detection Model\\src\\app.py', reloading
+2026-07-18 13:10:44,445 -  * Restarting with stat
+2026-07-18 13:11:04,881 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 13:11:04,882 - [33mPress CTRL+C to quit[0m
+2026-07-18 13:11:04,884 -  * Restarting with stat
+2026-07-18 13:11:06,926 -  * Debugger is active!
+2026-07-18 13:11:06,929 -  * Debugger PIN: 760-625-959
+2026-07-18 13:13:23,425 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 13:13:23,426 - [33mPress CTRL+C to quit[0m
+2026-07-18 13:13:23,427 -  * Restarting with stat
+2026-07-18 13:13:25,490 -  * Debugger is active!
+2026-07-18 13:13:25,493 -  * Debugger PIN: 760-625-959
+2026-07-18 13:14:32,350 - 127.0.0.1 - - [18/Jul/2026 13:14:32] "GET / HTTP/1.1" 200 -
+2026-07-18 13:14:32,467 - 127.0.0.1 - - [18/Jul/2026 13:14:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:14:33,682 - 127.0.0.1 - - [18/Jul/2026 13:14:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-18 13:15:19,067 - 127.0.0.1 - - [18/Jul/2026 13:15:19] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2026-07-18 13:15:31,642 - 127.0.0.1 - - [18/Jul/2026 13:15:31] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2026-07-18 13:17:29,466 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 13:17:29,466 - [33mPress CTRL+C to quit[0m
+2026-07-18 13:17:29,468 -  * Restarting with stat
+2026-07-18 13:17:31,630 -  * Debugger is active!
+2026-07-18 13:17:31,634 -  * Debugger PIN: 760-625-959
+2026-07-18 13:17:53,835 - 127.0.0.1 - - [18/Jul/2026 13:17:53] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2026-07-18 13:17:57,683 - 127.0.0.1 - - [18/Jul/2026 13:17:57] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2026-07-18 13:18:08,116 - 127.0.0.1 - - [18/Jul/2026 13:18:08] "GET / HTTP/1.1" 200 -
+2026-07-18 13:18:08,212 - 127.0.0.1 - - [18/Jul/2026 13:18:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:18:25,117 - Email scanned: \u2705 Safe Email
+2026-07-18 13:18:25,130 - 127.0.0.1 - - [18/Jul/2026 13:18:25] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:18:25,142 - 127.0.0.1 - - [18/Jul/2026 13:18:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:18:45,951 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 13:18:45,952 - 127.0.0.1 - - [18/Jul/2026 13:18:45] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:18:45,962 - 127.0.0.1 - - [18/Jul/2026 13:18:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:19:04,186 - Email scanned: \u2705 Safe Email
+2026-07-18 13:19:04,188 - 127.0.0.1 - - [18/Jul/2026 13:19:04] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:19:04,203 - 127.0.0.1 - - [18/Jul/2026 13:19:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:19:21,706 - Email scanned: \u2705 Safe Email
+2026-07-18 13:19:21,707 - 127.0.0.1 - - [18/Jul/2026 13:19:21] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:19:21,722 - 127.0.0.1 - - [18/Jul/2026 13:19:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:19:31,944 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 13:19:31,947 - 127.0.0.1 - - [18/Jul/2026 13:19:31] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:19:31,963 - 127.0.0.1 - - [18/Jul/2026 13:19:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:19:48,056 - Email scanned: \u2705 Safe Email
+2026-07-18 13:19:48,057 - 127.0.0.1 - - [18/Jul/2026 13:19:48] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:19:48,070 - 127.0.0.1 - - [18/Jul/2026 13:19:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:22:53,524 - Email scanned: \u2705 Safe Email
+2026-07-18 13:22:53,529 - 127.0.0.1 - - [18/Jul/2026 13:22:53] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:22:53,539 - 127.0.0.1 - - [18/Jul/2026 13:22:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:23:16,125 - Email scanned: \u2705 Safe Email
+2026-07-18 13:23:16,126 - 127.0.0.1 - - [18/Jul/2026 13:23:16] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:23:16,137 - 127.0.0.1 - - [18/Jul/2026 13:23:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:23:25,522 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 13:23:25,524 - 127.0.0.1 - - [18/Jul/2026 13:23:25] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:23:25,540 - 127.0.0.1 - - [18/Jul/2026 13:23:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:26:45,849 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 13:26:45,853 - 127.0.0.1 - - [18/Jul/2026 13:26:45] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:26:45,863 - 127.0.0.1 - - [18/Jul/2026 13:26:45] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-18 13:28:24,804 -  * Detected change in 'C:\\Users\\Shreeyaa\\Desktop\\SOC Mini\\Cyber\\Phishing Email Detection Model\\src\\modules\\risk_score.py', reloading
+2026-07-18 13:28:25,131 -  * Restarting with stat
+2026-07-18 13:28:28,316 -  * Debugger is active!
+2026-07-18 13:28:28,321 -  * Debugger PIN: 760-625-959
+2026-07-18 13:29:18,088 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 13:29:18,088 - [33mPress CTRL+C to quit[0m
+2026-07-18 13:29:18,090 -  * Restarting with stat
+2026-07-18 13:29:20,906 -  * Debugger is active!
+2026-07-18 13:29:20,912 -  * Debugger PIN: 760-625-959
+2026-07-18 13:30:52,408 -  * Detected change in 'C:\\Users\\Shreeyaa\\Desktop\\SOC Mini\\Cyber\\Phishing Email Detection Model\\src\\app.py', reloading
+2026-07-18 13:30:52,694 -  * Restarting with stat
+2026-07-18 13:30:55,630 -  * Debugger is active!
+2026-07-18 13:30:55,634 -  * Debugger PIN: 760-625-959
+2026-07-18 13:34:19,620 -  * Detected change in 'C:\\Users\\Shreeyaa\\Desktop\\SOC Mini\\Cyber\\Phishing Email Detection Model\\src\\app.py', reloading
+2026-07-18 13:34:19,880 -  * Restarting with stat
+2026-07-18 13:35:35,367 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 13:35:35,367 - [33mPress CTRL+C to quit[0m
+2026-07-18 13:35:35,370 -  * Restarting with stat
+2026-07-18 13:35:37,976 -  * Debugger is active!
+2026-07-18 13:35:37,980 -  * Debugger PIN: 760-625-959
+2026-07-18 13:35:48,250 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 13:35:48,276 - 127.0.0.1 - - [18/Jul/2026 13:35:48] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:35:48,748 - 127.0.0.1 - - [18/Jul/2026 13:35:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:37:08,145 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 13:37:08,146 - 127.0.0.1 - - [18/Jul/2026 13:37:08] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:37:08,160 - 127.0.0.1 - - [18/Jul/2026 13:37:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:37:10,235 - Email scanned: \u2705 Safe Email
+2026-07-18 13:37:10,236 - 127.0.0.1 - - [18/Jul/2026 13:37:10] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:37:10,249 - 127.0.0.1 - - [18/Jul/2026 13:37:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 13:37:34,928 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 13:37:34,929 - 127.0.0.1 - - [18/Jul/2026 13:37:34] "POST /predict HTTP/1.1" 200 -
+2026-07-18 13:37:34,944 - 127.0.0.1 - - [18/Jul/2026 13:37:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-18 14:06:45,365 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 14:06:45,366 - [33mPress CTRL+C to quit[0m
+2026-07-18 14:06:45,368 -  * Restarting with stat
+2026-07-18 14:06:47,896 -  * Debugger is active!
+2026-07-18 14:06:47,900 -  * Debugger PIN: 760-625-959
+2026-07-18 14:07:11,475 - 127.0.0.1 - - [18/Jul/2026 14:07:11] "GET / HTTP/1.1" 200 -
+2026-07-18 14:07:11,606 - 127.0.0.1 - - [18/Jul/2026 14:07:11] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-18 14:07:11,713 - 127.0.0.1 - - [18/Jul/2026 14:07:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-18 14:07:11,806 - 127.0.0.1 - - [18/Jul/2026 14:07:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-18 14:15:58,928 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 14:15:58,928 - [33mPress CTRL+C to quit[0m
+2026-07-18 14:15:58,931 -  * Restarting with stat
+2026-07-18 14:16:01,598 -  * Debugger is active!
+2026-07-18 14:16:01,602 -  * Debugger PIN: 760-625-959
+2026-07-18 14:16:43,617 - 127.0.0.1 - - [18/Jul/2026 14:16:43] "GET / HTTP/1.1" 200 -
+2026-07-18 14:16:43,666 - 127.0.0.1 - - [18/Jul/2026 14:16:43] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-18 14:16:43,751 - 127.0.0.1 - - [18/Jul/2026 14:16:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-18 14:16:43,837 - 127.0.0.1 - - [18/Jul/2026 14:16:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-18 14:19:05,351 - 127.0.0.1 - - [18/Jul/2026 14:19:05] "GET / HTTP/1.1" 200 -
+2026-07-18 14:19:05,381 - 127.0.0.1 - - [18/Jul/2026 14:19:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-18 14:19:05,383 - 127.0.0.1 - - [18/Jul/2026 14:19:05] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-18 14:19:08,295 - 127.0.0.1 - - [18/Jul/2026 14:19:08] "GET / HTTP/1.1" 200 -
+2026-07-18 14:19:08,323 - 127.0.0.1 - - [18/Jul/2026 14:19:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-18 14:19:08,324 - 127.0.0.1 - - [18/Jul/2026 14:19:08] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-18 14:20:38,155 - 127.0.0.1 - - [18/Jul/2026 14:20:38] "GET / HTTP/1.1" 200 -
+2026-07-18 14:20:38,195 - 127.0.0.1 - - [18/Jul/2026 14:20:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-18 14:20:38,199 - 127.0.0.1 - - [18/Jul/2026 14:20:38] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-18 14:29:34,523 - 127.0.0.1 - - [18/Jul/2026 14:29:34] "GET / HTTP/1.1" 200 -
+2026-07-18 14:29:34,552 - 127.0.0.1 - - [18/Jul/2026 14:29:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-18 14:29:34,553 - 127.0.0.1 - - [18/Jul/2026 14:29:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-18 14:29:36,399 - 127.0.0.1 - - [18/Jul/2026 14:29:36] "GET / HTTP/1.1" 200 -
+2026-07-18 14:29:36,424 - 127.0.0.1 - - [18/Jul/2026 14:29:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-18 14:29:36,425 - 127.0.0.1 - - [18/Jul/2026 14:29:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-18 14:34:24,143 - 127.0.0.1 - - [18/Jul/2026 14:34:24] "GET / HTTP/1.1" 200 -
+2026-07-18 14:34:24,170 - 127.0.0.1 - - [18/Jul/2026 14:34:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-18 14:34:24,172 - 127.0.0.1 - - [18/Jul/2026 14:34:24] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-18 14:39:44,285 - 127.0.0.1 - - [18/Jul/2026 14:39:44] "GET / HTTP/1.1" 200 -
+2026-07-18 14:39:44,310 - 127.0.0.1 - - [18/Jul/2026 14:39:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-18 14:47:23,080 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 14:47:23,081 - 127.0.0.1 - - [18/Jul/2026 14:47:23] "POST /predict HTTP/1.1" 200 -
+2026-07-18 14:47:23,112 - 127.0.0.1 - - [18/Jul/2026 14:47:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-18 14:47:46,454 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 14:47:46,455 - 127.0.0.1 - - [18/Jul/2026 14:47:46] "POST /predict HTTP/1.1" 200 -
+2026-07-18 14:47:46,487 - 127.0.0.1 - - [18/Jul/2026 14:47:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-18 14:52:09,160 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-18 14:52:09,168 - 127.0.0.1 - - [18/Jul/2026 14:52:09] "POST /predict HTTP/1.1" 200 -
+2026-07-18 14:52:09,197 - 127.0.0.1 - - [18/Jul/2026 14:52:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-18 14:52:16,287 - Email scanned: \u2705 Safe Email
+2026-07-18 14:52:16,287 - 127.0.0.1 - - [18/Jul/2026 14:52:16] "POST /predict HTTP/1.1" 200 -
+2026-07-18 14:52:16,317 - 127.0.0.1 - - [18/Jul/2026 14:52:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-18 14:56:56,597 -  * Detected change in 'C:\\Users\\Shreeyaa\\Desktop\\SOC Mini\\Cyber\\Phishing Email Detection Model\\src\\app.py', reloading
+2026-07-18 14:56:56,927 -  * Restarting with stat
+2026-07-18 14:56:59,889 -  * Debugger is active!
+2026-07-18 14:56:59,892 -  * Debugger PIN: 760-625-959
+2026-07-18 14:57:16,318 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 14:57:16,318 - [33mPress CTRL+C to quit[0m
+2026-07-18 14:57:16,321 -  * Restarting with stat
+2026-07-18 14:57:19,029 -  * Debugger is active!
+2026-07-18 14:57:19,034 -  * Debugger PIN: 760-625-959
+2026-07-18 14:57:36,899 - Email scanned: \u2705 Safe Email
+2026-07-18 14:57:36,911 - 127.0.0.1 - - [18/Jul/2026 14:57:36] "POST /predict HTTP/1.1" 200 -
+2026-07-18 14:57:37,021 - 127.0.0.1 - - [18/Jul/2026 14:57:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-18 14:58:13,272 - Email scanned: \u2705 Safe Email
+2026-07-18 14:58:13,273 - 127.0.0.1 - - [18/Jul/2026 14:58:13] "POST /predict HTTP/1.1" 200 -
+2026-07-18 14:58:13,304 - 127.0.0.1 - - [18/Jul/2026 14:58:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-18 15:00:02,838 -  * Detected change in 'C:\\Users\\Shreeyaa\\Desktop\\SOC Mini\\Cyber\\Phishing Email Detection Model\\src\\app.py', reloading
+2026-07-18 15:00:03,157 -  * Restarting with stat
+2026-07-20 20:21:46,956 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 20:21:46,959 - [33mPress CTRL+C to quit[0m
+2026-07-20 20:21:46,962 -  * Restarting with stat
+2026-07-20 20:21:49,130 -  * Debugger is active!
+2026-07-20 20:21:49,146 -  * Debugger PIN: 760-625-959
+2026-07-20 20:23:05,801 -  * Detected change in 'C:\\Users\\Shreeyaa\\Desktop\\SOC Mini\\Cyber\\Phishing Email Detection Model\\src\\app.py', reloading
+2026-07-20 20:23:06,117 -  * Restarting with stat
+2026-07-20 20:24:29,928 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 20:24:29,928 - [33mPress CTRL+C to quit[0m
+2026-07-20 20:25:30,668 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 20:25:30,669 - [33mPress CTRL+C to quit[0m
+2026-07-20 20:26:40,916 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.33:5000
+2026-07-20 20:26:40,917 - [33mPress CTRL+C to quit[0m
+2026-07-20 20:26:58,444 - 127.0.0.1 - - [20/Jul/2026 20:26:58] "GET / HTTP/1.1" 200 -
+2026-07-20 20:26:58,572 - 127.0.0.1 - - [20/Jul/2026 20:26:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-20 20:26:58,696 - 127.0.0.1 - - [20/Jul/2026 20:26:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-20 20:28:48,263 - Email scanned: \u26a0\ufe0f Phishing Email Detected
+2026-07-20 20:28:48,268 - 127.0.0.1 - - [20/Jul/2026 20:28:48] "POST /predict HTTP/1.1" 200 -
+2026-07-20 20:28:48,280 - 127.0.0.1 - - [20/Jul/2026 20:28:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

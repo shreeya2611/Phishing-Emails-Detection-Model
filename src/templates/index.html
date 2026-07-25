@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishGuard AI</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+
+    <div class="container">
+
+        <!-- Logo -->
+
+        <a class="navbar-brand logo" href="#">
+
+            <i class="bi bi-shield-lock-fill"></i>
+
+            <span>PhishGuard AI</span>
+
+        </a>
+
+        <!-- Mobile Toggle -->
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <!-- Menu -->
+
+        <div class="collapse navbar-collapse justify-content-end"
+             id="navbarNav">
+
+            <ul class="navbar-nav align-items-center">
+
+                <li class="nav-item">
+
+                    <a class="nav-link active" href="#">
+
+                        <i class="bi bi-speedometer2"></i>
+
+                        Dashboard
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#scanner">
+
+                        <i class="bi bi-search"></i>
+
+                        Scanner
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#history">
+
+                        <i class="bi bi-clock-history"></i>
+
+                        History
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#reports">
+
+                        <i class="bi bi-file-earmark-bar-graph"></i>
+
+                        Reports
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#about">
+
+                        <i class="bi bi-info-circle"></i>
+
+                        About
+
+                    </a>
+
+                </li>
+
+                <!-- Status Badge -->
+
+                <li class="nav-item ms-3">
+
+                    <span class="status-badge">
+
+                        <span class="status-dot"></span>
+
+                        System Online
+
+                    </span>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+    <!-- Dashboard -->
+<div class="container mt-5">
+
+    <div class="hero">
+        <h1>AI Powered Email Threat Detection</h1>
+        <p>Detect phishing emails using Machine Learning and NLP</p>
+    </div>
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <span class="icon">📧</span>
+            <h3>Emails Scanned</h3>
+            <h2>120</h2>
+            <small>+12 Today</small>
+        </div>
+
+        <div class="stat-card">
+            <span class="icon">🟢</span>
+            <h3>Safe Emails</h3>
+            <h2>94</h2>
+            <small>78%</small>
+        </div>
+
+        <div class="stat-card danger">
+            <span class="icon">🔴</span>
+            <h3>Threats</h3>
+            <h2>26</h2>
+            <small>22%</small>
+        </div>
+
+        <div class="stat-card">
+            <span class="icon">🎯</span>
+            <h3>Accuracy</h3>
+            <h2>98.7%</h2>
+            <small>Excellent</small>
+        </div>
+
+    </div>
+
+    <div class="scanner-card">
+
+        <h2>Email Scanner</h2>
+
+        <form action="/predict" method="POST">
+
+            <textarea
+                name="email"
+                placeholder="Paste suspicious email here..."
+                required></textarea>
+
+            <button class="scan-btn">
+                🔍 Scan Email
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+{% if prediction %}
+
+<div class="result-box {% if 'Phishing' in prediction %}danger{% else %}safe{% endif %}">
+
+    <h2>{{ prediction }}</h2>
+
+    <p><strong>Risk Score:</strong> {{ score }}</p>
+
+    <p><strong>Severity:</strong> {{ severity }}</p>
+
+    <h4>Threat Indicators</h4>
+
+    <ul>
+    {% for reason in reasons %}
+        <li>{{ reason }}</li>
+    {% endfor %}
+    </ul>
+
+</div>
+
+{% endif %}
